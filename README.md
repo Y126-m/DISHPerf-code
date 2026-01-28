@@ -12,7 +12,7 @@ This drive releases the code and data for the DISHPerf model, an improved shallo
 ## Directories
 
 + `datasets`: dataset including the performance data of the ten subject systems.
-+ `models`: python code for building, training and testing the HINNPerf model.
++ `models`: python code for building the DISHPerf model.
 + `utils`: python code for auxiliary training.
 
 ## Usage
