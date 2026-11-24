@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "package_id": "3eef32707fe1f0abd2b472f4e301c397d39680f80323efcd3909bfe9901ac951",
+  "data_sha256": "5df3c09859a7f1712a2fc8fc87abc61cf2a87057f3f37be42f84a4dd728e5759",
+  "training": "2-step verification only; not formal experiments",
+  "tensorflow": "1.10.0",
+  "checks": [
+    "original budget-complement split",
+    "fit-only screening invariant to validation/test label changes",
+    "score equals paper equal-weight formula",
+    "120 search configurations",
+    "actual TF graph keeps every original input [13,26]",
+    "gate and output graph",
+    "one-thread session",
+    "search and final predictions invariant to poisoned test targets"
+  ],
+  "prediction_max_abs_difference": 0.0
+}

@@ -1,0 +1,6 @@
+# Verified local runtime: Python 3.6.13, TensorFlow 1.10.0 (CPU).
+# Use the existing server envs/native36; do not install into a running queue's env.
+tensorflow==1.10.0
+numpy==1.19.2
+scipy==1.5.2
+scikit-learn==0.24.2

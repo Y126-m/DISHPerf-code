@@ -1,0 +1,26 @@
+{
+  "version": "dishperf-paper-11-16-aligned-v1",
+  "package_id": "3eef32707fe1f0abd2b472f4e301c397d39680f80323efcd3909bfe9901ac951",
+  "paper_source": "D:\\组会汇报\\论文\\第一篇小论文\\修改\\paper (11-16).tex",
+  "paper_sha256": "0f4faa494a70275c3eb9f1b16a2aee93bcd3cf7027eb14235d6285f6622c5367",
+  "upstream_source": "D:\\aresearch\\Mymodel\\HINNPerf-yuanshi\\DISHPerf-2.2",
+  "upstream_files": {
+    "run.py": "4cfe8eafa8a81c12d2c83bd9d2bc2c47b702c3884bb2ede826a5d391560439cc",
+    "models/models.py": "4cbde1ad4362623aeddb0a10524d18a45e7445d19153532eb71d01c559c89f90",
+    "models/model_runner.py": "750db28a217da651aa53ed49b2c18c5b2a472780fdf6e666d2f3759e15c1a083",
+    "utils/data_preproc.py": "4b0318c124fb34fc46cd4c603199985d77394fbdd4c74a03f00148ceb4abbb80"
+  },
+  "files": {
+    "protocol.py": "853f781552412fd327f7be55cd0119f6bacb475ef86e4559165a5e4fc4edc587",
+    "run.py": "eebb69a2b9b1f79760bd376e42243d5b47e0dee922d0fd85a80681a29abee399",
+    "runner.py": "e8c194f7159480782f0f828379b77b6815bfc510a127818b0c6009e13bf89632",
+    "summarize.py": "b69b1a7a83eafb4f75f86949776c3ad17016cd4b1ec2201a913bff4d46bcf866",
+    "verify.py": "75b26b8c8f81b3ab41aac3268680dfee6ac28999a5442c5bf794d3372a965283",
+    "models/models.py": "d894b2edabfd95f147b9e9299e804dacd8e9bf478456cf8ec00ea7b18b8fb79a",
+    "models/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "utils/args.py": "fc5c98f6e918b49665cc5892a88b283aecb2ab7bb2efbbdd4ef8593ea738105a",
+    "utils/data_preproc.py": "e8169a7e1a6f1271b56d273954fcf259cf00558b57c589a084ddae5d3cbca19a",
+    "utils/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "data_manifest.json": "8cc6c8ca93140d3cc74f46201ffab413c4834716a7c13de295f504ed6f071197"
+  }
+}

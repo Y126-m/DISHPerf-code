@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "package_id": "3eef32707fe1f0abd2b472f4e301c397d39680f80323efcd3909bfe9901ac951",
+  "author_x264_splits_matched": 120,
+  "plan_test_counts": [
+    1136,
+    1120,
+    1088,
+    1056
+  ],
+  "smoke_prediction_rows": 1136,
+  "saved_predictions_metric_recomputed": true,
+  "completed_resume_hash_verified": true,
+  "summary_excludes_verification_runs": true,
+  "formal_experiments_started": false
+}
