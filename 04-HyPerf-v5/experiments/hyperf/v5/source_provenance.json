@@ -1,0 +1,39 @@
+{
+  "archive_sha256": "cde0eb3e781121773d2018a23bd7d4e4c9eb9b8fad654d2030c2e30d2a62de55",
+  "hyperf_files": {
+    "models.py": {
+      "zip_sha256": "aea636215de1a8f0155f90834dc69ba09f02c760a259424ce0a4bdd18cd31b2e",
+      "local_sha256": "aea636215de1a8f0155f90834dc69ba09f02c760a259424ce0a4bdd18cd31b2e",
+      "numerical_model_changed": false
+    },
+    "data.py": {
+      "zip_sha256": "f9eff0eeec960b95d2a4d2e715549a2d56f1ce6cafb3658bb5bef3074d05edf7",
+      "local_sha256": "369b71a4efce10e1f9c375dfb6a820fc472a3b85dd8299e302ca1141e29a05f4",
+      "numerical_model_changed": false
+    },
+    "utils.py": {
+      "zip_sha256": "60f0f238c47c5c1277d5dd15881506fd5187c301082e41ad616ef65a50405f1c",
+      "local_sha256": "60f0f238c47c5c1277d5dd15881506fd5187c301082e41ad616ef65a50405f1c",
+      "numerical_model_changed": false
+    },
+    "localflow.py": {
+      "zip_sha256": "2327467950df6673143c522377a0fd6af90768b86ebe9ce8098799e4c9d4ec82",
+      "local_sha256": "2327467950df6673143c522377a0fd6af90768b86ebe9ce8098799e4c9d4ec82",
+      "numerical_model_changed": false
+    }
+  },
+  "changes": [
+    "data.py lines146-148 indentation only; no runtime split path used from that repaired branch",
+    "No changes to models.py/utils.py/localflow.py",
+    "HashBufferCompatibility passes identical ndarray bytes to original SHA256 algorithm",
+    "Original _fit and _predict_samples methods are inherited, not replaced",
+    "Native bridge fixes external partitions and fit-only screening; original network and training methods preserved",
+    "Host device count matched to3 chains to avoid creating50 virtual CPU devices; original parallel chain default retained"
+  ],
+  "budget3p_extension": {
+    "source_package_id": "4b25d8498222de4eceb7aa3cb11dbc962c6c802292956b75341f2f395be024f5",
+    "models_and_sampler_changed": false,
+    "changed_protocol": "additional p reservation and common holdout; explicit old prediction re-evaluation",
+    "screening_minimum_budget_changed": false
+  }
+}

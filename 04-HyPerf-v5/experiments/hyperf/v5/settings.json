@@ -1,0 +1,56 @@
+{
+  "version": "dishperf-hyperf-budget3p-v5-20261026-isolated-linux-20261029",
+  "main_python": "/hy-tmp/DISHPerf_HyPerf_isolated_linux_20261029/envs/modern/bin/python",
+  "native_python": "/hy-tmp/DISHPerf_HyPerf_isolated_linux_20261029/envs/native36/bin/python",
+  "source_zip": "/hy-tmp/DISHPerf_HyPerf_isolated_linux_20261029/upstream/hyperf-companion-main.zip",
+  "source_zip_sha256": "cde0eb3e781121773d2018a23bd7d4e4c9eb9b8fad654d2030c2e30d2a62de55",
+  "systems": {
+    "x264": {
+      "p": 25,
+      "workloads": 9,
+      "target": "time"
+    },
+    "lrzip": {
+      "p": 11,
+      "workloads": 13,
+      "target": "time"
+    },
+    "h2": {
+      "p": 16,
+      "workloads": 8,
+      "target": "throughput"
+    }
+  },
+  "alphas": [
+    0.5,
+    1.0,
+    2.0,
+    3.0
+  ],
+  "repeats": 5,
+  "max_pool_alpha": 3.0,
+  "top_k": 3,
+  "test_cap_per_workload": 10000,
+  "hyperf": {
+    "warmup": 1000,
+    "samples": 1000,
+    "chains": 3,
+    "target_accept": 0.9,
+    "x64": false,
+    "prediction": "unchanged upstream full-test Predictive(parallel=False), PRNGKey(0); chunk scores only"
+  },
+  "smoke": {
+    "warmup": 16,
+    "samples": 16,
+    "chains": 3,
+    "test_rows_per_workload": 16
+  },
+  "data_policy": "sample.csv configuration whitelist only; median of duplicate config/workload; fail on invalid rows",
+  "screen_scope": "fit_only",
+  "summary": "all registered repeats; no trimming; paired differences; diagnostic warnings retained",
+  "run_defaults": "plan only; one subprocess at a time; no automatic full experiment launch",
+  "preparation_sha256": "a43b62ca6550a481832c5c228ac3c4618a23c0c749125746d8d6ac49e6e0f40b",
+  "reuse_root": "/hy-tmp/DISHPerf_HyPerf_isolated_linux_20261029/references/windows_v4",
+  "extension_policy": "Preserve v4 training rows at <=2p; randomly reserve an additional p rows from the old test pool; common test excludes these rows for all four budgets. Selection uses IDs only, not observed errors.",
+  "extension_seed": 20261026
+}

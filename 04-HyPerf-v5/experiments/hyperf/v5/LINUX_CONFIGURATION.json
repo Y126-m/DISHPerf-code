@@ -1,0 +1,11 @@
+{
+  "root": "/hy-tmp/DISHPerf_HyPerf_isolated_linux_20261029",
+  "source_package_id": "c45459ef93d192d59ded0775ec0118e48d1c21fa45006c73ef752b53598dcccb",
+  "linux_package_id": "d788c46684631b35f3b0b212a9416d16238d6e61f54d794de527639ad2486a3a",
+  "changed_frozen_files": [
+    "settings.json"
+  ],
+  "models_and_sampler_changed": false,
+  "reference_packages_modified": false,
+  "linux_training_acceptance_completed": false
+}

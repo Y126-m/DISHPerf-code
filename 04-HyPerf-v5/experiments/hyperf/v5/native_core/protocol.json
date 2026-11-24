@@ -1,0 +1,69 @@
+{
+  "version": "dishperf-native-tf-1.0",
+  "source_root": "D:\\aresearch\\Mymodel\\HINNPerf-yuanshi\\DISHPerf-2.2",
+  "data_root": "D:\\aresearch\\Mymodel\\HINNPerf-yuanshi\\DISHPerf-2.2\\datasets",
+  "native_python": "D:/anaconda/envs/moxiangev/python.exe",
+  "registered_repetitions": 30,
+  "environment": {
+    "python": "3.6.13",
+    "tensorflow": "1.10.0",
+    "numpy": "1.19.2",
+    "scipy": "1.5.2",
+    "scikit-learn": "0.24.2",
+    "pandas": "1.1.5"
+  },
+  "upstream_sha256": {
+    "run.py": "4cfe8eafa8a81c12d2c83bd9d2bc2c47b702c3884bb2ede826a5d391560439cc",
+    "models/models.py": "4cbde1ad4362623aeddb0a10524d18a45e7445d19153532eb71d01c559c89f90",
+    "models/model_runner.py": "750db28a217da651aa53ed49b2c18c5b2a472780fdf6e666d2f3759e15c1a083",
+    "models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utils/data_preproc.py": "4b0318c124fb34fc46cd4c603199985d77394fbdd4c74a03f00148ceb4abbb80",
+    "utils/args.py": "fc5c98f6e918b49665cc5892a88b283aecb2ab7bb2efbbdd4ef8593ea738105a",
+    "utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "datasets": {
+    "BDBJ": {
+      "filename": "BDBJ_AllNumeric.csv",
+      "sha256": "f1aaaa69198a233aeab65db2a05397042b568eb8533266432af7d513f7ef6b5e"
+    },
+    "Dune": {
+      "filename": "Dune_AllNumeric.csv",
+      "sha256": "3acd1bb0f62252601d480854c6a3cb799da7fed3e369102a04c431a188289d9e"
+    },
+    "hipacc": {
+      "filename": "hipacc_AllNumeric.csv",
+      "sha256": "af8f4ad6ab474f02b8171d51fede092c07ed676808f7f4d1b134ac4270f19e5a"
+    },
+    "hsmgp": {
+      "filename": "hsmgp_AllNumeric.csv",
+      "sha256": "c3795d4bf21d878435be7edfcab7f3662d01611ae6ae8267549f737056f3d0e8"
+    },
+    "javagc": {
+      "filename": "javagc_AllNumeric.csv",
+      "sha256": "fb4d77e7cd8700d5f669fae56cddd813eae461509ca6e744a535979c0687521c"
+    },
+    "lrzip": {
+      "filename": "lrzip_AllNumeric.csv",
+      "sha256": "48e6e9a3e7d0c1405a2deb2c530c2597658315e18ff7204234bde2d64ae94558"
+    },
+    "polly": {
+      "filename": "polly_AllNumeric.csv",
+      "sha256": "6d9adb47b84243956957f51190ba1644e181ec01209fd3f521f821af99ad5fdc"
+    },
+    "sac": {
+      "filename": "sac_AllNumeric.csv",
+      "sha256": "f069ec7c16ab43d9981391e515992ef4827dad5f3fe1841616bd979f9e78c7b4"
+    },
+    "vp9": {
+      "filename": "vp9_AllNumeric.csv",
+      "sha256": "e87b5b5a37df3476d67230d3655296d08403749d1a3fd60426c76078b681a19e"
+    },
+    "x264": {
+      "filename": "x264_AllNumeric.csv",
+      "sha256": "5df3c09859a7f1712a2fc8fc87abc61cf2a87057f3f37be42f84a4dd728e5759"
+    }
+  },
+  "structural_scope": "Native DISHPerf-2.2 C-residual architecture; manuscript 2n-residual parity unestablished",
+  "default_screen_scope": "fit_only",
+  "summary_policy": "all completed repetitions retained; no top-error trimming"
+}

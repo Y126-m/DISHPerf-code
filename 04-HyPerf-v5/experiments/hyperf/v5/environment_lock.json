@@ -1,0 +1,21 @@
+{
+  "hyperf": {
+    "python": "3.11.15",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.2.3",
+      "scipy": "1.12.0",
+      "scikit-learn": "1.4.2",
+      "jax": "0.4.35",
+      "jaxlib": "0.4.35",
+      "numpyro": "0.15.3",
+      "arviz": "0.20.0"
+    }
+  },
+  "author_reference": {
+    "python": "3.10.4",
+    "numpyro": "0.12.1",
+    "arviz": "0.16.1"
+  },
+  "interpretation": "Models and sampler match supplied source. Current compatible dependency versions are pinned and disclosed; not bitwise reproduction of original paper environment."
+}
